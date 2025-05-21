@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.top-right-links {
+  text-align: right;
+  padding: 10px 20px;
+}
+
+.google{
+  width:300px;
+  height:180px;
+}
+
+div .top-right-links a{
+  color:white;
+}
+
+.top-right-links a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #1a0dab;
+  font-size: 20px;
+}
+
+.center-container {
+  margin-top: 150px;
+}
+
+.search-input {
+  width: 700px;
+  height:30px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #999898;
+  border-radius: 24px;
+  outline: none;
+}
+
+.buttons {
+  margin-top: 20px;
+  border-radius:10px;
+}
+
+.buttons input[type="submit"] {
+  padding: 8px 16px;
+  margin: 5px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  background-color: blue;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.buttons input[type="submit"]:hover {
+  border: 1px solid #c6c6c6;
+}
+
+.advanced-container {
+  text-align: left;
+  margin: 100px auto;
+  width: 600px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-group input[type="text"] {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid #634c4c;
+  border-radius: 5px;
+}
+
+.blue-button {
+  background-color: #4d90fe;
+  color: white;
+  font-weight: bold;
+}
